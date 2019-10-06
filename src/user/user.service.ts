@@ -9,16 +9,16 @@ export interface User {
 }
 
 @Injectable()
-export class UsersService {
+export class UserService {
     private readonly users: User[];
 
     constructor() {
         this.users = [
             {
                 userId: 1,
-                firstname: 'Marlon',
-                lastname: 'Hänsdieke',
-                username: 'dev-marlon',
+                firstname: 'Geronimo',
+                lastname: 'Cadillac',
+                username: 'Frank',
                 password: '12345'
             }
         ]
